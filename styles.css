@@ -1,0 +1,89 @@
+/* Resetando estilos padrão */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos gerais */
+body {
+    font-family: 'Arial', sans-serif;
+    background: #004D00; /* Verde Palmeiras */
+    color: #FFF;
+    text-align: center;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #006600; /* Verde escuro Palmeiras */
+    padding: 20px;
+    border-bottom: 5px solid #FFD700; /* Detalhes dourados */
+}
+
+header h1 {
+    font-size: 36px;
+    color: #FFD700;
+}
+
+nav ul {
+    list-style-type: none;
+    margin-top: 10px;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #FFD700;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #FFF;
+}
+
+/* Estilo dos artigos */
+.conteudo {
+    padding: 40px 20px;
+}
+
+article {
+    background-color: rgba(0, 0, 0, 0.2); /* Fundo sutil */
+    padding: 20px;
+    border-radius: 8px;
+    border: 3px solid #FFD700; /* Borda dourada */
+    margin: 10px 0;
+}
+
+article h2 {
+    font-size: 28px;
+    color: #FFD700; /* Cor dourada */
+    margin-bottom: 10px;
+}
+
+article p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+/* Rodapé */
+footer {
+    background-color: #006600;
+    padding: 15px;
+    margin-top: 30px;
+    border-top: 3px solid #FFD700;
+}
+
+footer p {
+    font-size: 16px;
+}
+
+/* Estilos de ancoragem */
+a {
+    text-decoration: none;
+    color: inherit;
+}
